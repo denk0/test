@@ -1,0 +1,12 @@
+.correct-list {
+	&:before {
+		content: 'List with correct answers';
+		font-size: 30px
+	}
+}
+.incorrect-list {
+	&:before {
+		content: 'List with incorrect answers';
+		font-size: 30px
+	}
+}
